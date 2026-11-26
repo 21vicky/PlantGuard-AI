@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Dataset - do not upload
+dataset/
+
+# Test images - keep local
+test_images/
+
+# Duplicate model
+models/plantguard_model.keras
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Cache
+.pytest_cache/
